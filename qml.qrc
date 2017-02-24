@@ -1,0 +1,9 @@
+<RCC>
+ <qresource prefix="/"> 
+<file alias="main.qml">main.qml</file>
+<file alias="Page1Demo.qml">Page1Demo.qml</file>
+<file alias="Page2Demo.qml">Page2Demo.qml</file>
+<file alias="Page3Demo.qml">Page3Demo.qml</file>
+<file alias="Page4Demo.qml">Page4Demo.qml</file>
+ </qresource>
+</RCC>
