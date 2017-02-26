@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 #else
     engine.load(QUrl::fromLocalFile(QGuiApplication::applicationDirPath() +
                                 #if defined(Q_OS_WIN)
-                                    QStringLiteral("")
+                                    QStringLiteral("/..")
                                 #elif defined(Q_OS_MAC)
                                     QStringLiteral("/../../..")
                                 #endif
